@@ -1,15 +1,19 @@
 h1 {
+  text-align: center;
   font-family: 'Concert One', cursive;
 }
 
 .big {
-    background-color: #7DCEA0;
+    align-content: center;
+    background-color: #8cb27c;
     box-sizing: border-box;
     position: relative;
     width: 600px;
     height: 300px;
-    border: 7px solid #D0D3D4;
-    margin: 5em 4em 3em 2em;
+    border: 7px solid #8cb27c;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -17,10 +21,12 @@ h1 {
     position: absolute;
     box-sizing: border-box;
     top: 85px;
-    right: 0;
+    right: 10px;
     width: 70px;
     height: 120px;
-    border: 3px solid white;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
 
 }
 
@@ -28,36 +34,34 @@ h1 {
   position: absolute;
   box-sizing: border-box;
   top:85px;
-  right: -1;
+  left: 10px;
   width: 70px;
   height: 120px;
-  border:3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
 
 }
 
 .circle {
   position:fixed;
   box-sizing: border-box;
-  left: 270px;
-  top: 225px;
+  left: 620px;
+  top: 245px;
   width: 130px;
   height: 130px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #7DCEA0;
+  background: #8cb27c;
   border: 3px solid white;
 }
 
 .ball1 {
   position:fixed;
   box-sizing: border-box;
-  left: 340px;
-  top: 180px;
+  right: 475px;
+  top: 340px;
   width: 15px;
   height: 15px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   background: white;
 }
@@ -65,12 +69,10 @@ h1 {
 .ball2 {
   position:fixed;
   box-sizing: border-box;
-  left: 105px;
-  top: 232px;
+  left: 457px;
+  top: 252px;
   width: 15px;
   height: 15px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   background: white;
 }
@@ -78,12 +80,18 @@ h1 {
 .ball3 {
   position:fixed;
   box-sizing: border-box;
-  left: 544px;
-  top: 323px;
+  left: 690px;
+  top: 205px;
   width: 15px;
   height: 15px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   background: white;
+}
+
+p {
+  margin: 10px;
+  color: #8cb27c;
+  height: 260px;
+  border: 2px solid white;
+
 }
