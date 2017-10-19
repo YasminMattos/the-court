@@ -1,9 +1,10 @@
 h1 {
   text-align: center;
   font-family: 'Concert One', cursive;
+  font-size: 50px;
 }
 
-.big {
+.field {
     align-content: center;
     background-color: #8cb27c;
     box-sizing: border-box;
@@ -17,7 +18,7 @@ h1 {
 
 }
 
-.small1 {
+.footballbow1 {
     position: absolute;
     box-sizing: border-box;
     top: 85px;
@@ -30,7 +31,7 @@ h1 {
 
 }
 
-.small2 {
+.footballbow2 {
   position: absolute;
   box-sizing: border-box;
   top:85px;
@@ -44,10 +45,10 @@ h1 {
 }
 
 .circle {
-  position:fixed;
+  position:absolute;
   box-sizing: border-box;
-  left: 620px;
-  top: 245px;
+  left: 220px;
+  top: 80px;
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -56,10 +57,10 @@ h1 {
 }
 
 .ball1 {
-  position:fixed;
+  position:absolute;
   box-sizing: border-box;
-  right: 475px;
-  top: 340px;
+  right: 280px;
+  top: 40px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -67,10 +68,10 @@ h1 {
 }
 
 .ball2 {
-  position:fixed;
+  position:absolute;
   box-sizing: border-box;
-  left: 457px;
-  top: 252px;
+  left: 68px;
+  top: 86px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -78,10 +79,10 @@ h1 {
 }
 
 .ball3 {
-  position:fixed;
+  position:absolute;
   box-sizing: border-box;
-  left: 690px;
-  top: 205px;
+  left: 485px;
+  top: 180px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
